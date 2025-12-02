@@ -1,11 +1,3 @@
-Absolutely! Here’s a **full, copy-paste-ready README.md** including:
-
-* API endpoints
-* How to run tests
-* Test descriptions
-
-All in **one cohesive file**:
-
 ````markdown
 # Flash Sale — README
 
@@ -100,23 +92,6 @@ QUEUE_CONNECTION=database
 CACHE_STORE=database
 SESSION_DRIVER=database
 ````
-
-### `.env.testing` for MySQL
-
-```dotenv
-APP_ENV=testing
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=flashsale_test
-DB_USERNAME=root
-DB_PASSWORD=
-QUEUE_CONNECTION=sync
-CACHE_STORE=array
-SESSION_DRIVER=array
-```
-
----
 
 ## Running Locally
 
